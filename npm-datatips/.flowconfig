@@ -1,0 +1,14 @@
+[include]
+
+[ignore]
+
+[libs]
+
+[options]
+suppress_comment=.*\\$FlowFixMe.*
+suppress_comment=.*\\$FlowIssue.*
+suppress_comment=.*\\$FlowIgnore.*
+esproposal.class_static_fields=enable
+
+[version]
+0.30.0

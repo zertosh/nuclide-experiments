@@ -1,0 +1,22 @@
+{
+  "name": "npm-datatips",
+  "version": "0.0.0",
+  "description": "datatips for npm packages in package.json files",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andres Suarez <zertosh@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "npm-registry-client": "^7.1.2",
+    "semver": "^5.3.0"
+  },
+  "consumedServices": {
+    "nuclide-datatip": {
+      "versions": {
+        "1.0.0": "consumeDatatip"
+      }
+    }
+  }
+}
