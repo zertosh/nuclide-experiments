@@ -15,10 +15,12 @@ import type {
 import * as path from 'path';
 import invariant from 'assert';
 import {shell} from 'electron';
+// import React from 'react';
 
 const JSON_KEY_VALUE = /(?:")([a-z0-9-_]+)(?:"\s*:\s*")([0-9.^~=x]+)(?:")/ig;
 
 export default function datatipProvider(api: DatatipAPI): DatatipProvider {
+  // const {wordAtPosition} = api;
   const {React, wordAtPosition} = api;
 
   type Props = {
